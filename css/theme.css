@@ -639,12 +639,12 @@ section .container {
 	color: #FFF;
 	background-color: rgba(255, 255, 255, 0.16);
 	border-radius: 50%;
-	box-shadow: inset 0px 0px rgba(255, 0, 0, 0.82);
+	box-shadow: inset 0px 0px rgba(0, 255, 0, 0.82);
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
 .info-box:hover .info-box-icon {
-	box-shadow: inset 0px -75px rgba(255, 0, 0, 0.82);
+	box-shadow: inset 0px -75px rgba(0, 255, 0, 0.82);
 }
 .info-box-heading {
 	display: inline-block;
@@ -1581,12 +1581,12 @@ img.mfp-img {
 	background-color: #FFF;
 	text-align: center;
 	font-size: 24px;
-	color: #F20000;
+	color: #55aa00;
 	text-decoration: none;
 	z-index: 9999;
 }
 .scrolltotop:hover, .scrolltotop:focus {
-	color: #F20000;
+	color: #00ff00;
 }
 @media only screen and (max-width: 768px) {
 	.scrolltotop {
