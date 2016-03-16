@@ -1,1 +1,4 @@
-/* Add here all your JS customizations */
+$('.myboxbox').click(function() {
+  $(this).toggleClass('selected');
+  
+});

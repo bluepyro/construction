@@ -5,3 +5,93 @@ Add here all your CSS customizations
 Note: IE9 doesn't support transitions and animations
 
 -------------------------------------------------------*/
+
+
+#section-6{
+	/*margin-top: 746px;*/
+	padding-top: 0 !important;
+}
+
+/*#section-5.split-box .col-left, .split-box .col-right{
+	background-color: #f2f2f2;
+}*/
+
+#section-5{
+	background-color: #f2f2f2;
+}
+
+.lime-green{
+	background-color: #9dd03b;
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+	text-transform: lowercase;
+	font-family: "helvetica", sans-serif;
+	border-radius: 7px;
+}
+
+.lime-green.one{
+	color: #fff;
+}
+
+.lime-green.two{
+	color: #414246
+}
+
+.k{
+	/*background-color: #414246;*/
+	padding-bottom: 0;
+	color: #414246;
+	border-bottom: 4px solid #fff;
+	animation-play-state: paused;
+}
+
+.m{
+	border-bottom: 4px solid #414246;
+	padding-bottom: 0;
+}
+
+.k:hover{
+	animation-play-state: running;
+}
+
+#section-5{
+	display: none;
+}
+
+.meet-us{
+	border-right: 1px solid #414246
+}
+
+.bg-main.text-white{
+	margin-right: 0;
+}
+
+.portfolio .box .cover{
+	background: rgba(0,0,0,.6);
+}
+
+
+/***********  Try Later *************/
+/*#section-2 .col-left.col-lg-6.col-lg-height.no-padding{}
+	
+
+#section-2 p#quote-overlay{
+	position: absolute;
+	width: 604px;
+  	height: 492px;
+ 	 top: 0;
+  	left: 0;										
+	background-color: red;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+
+#section-2 p#quote-overlay:hover{
+	display: none;
+}	*/
+
+#cd-lateral-nav a:hover{
+	text-decoration: none;
+}

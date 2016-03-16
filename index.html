@@ -15,13 +15,15 @@
         <meta name="description" content="Responsive One Page HTML5 Template">
         <meta name="keywords" content="HTML5, CSS, Bootsrtrap, Responsive, Template" />
         <meta name="author" content="http://themetorium.tumblr.com">
+        
 
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Google fonts - (more info: https://www.google.com/fonts) -->
         <link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
 
         <!-- Libs and Plugins CSS -->
         <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css"> <!-- bootstrap CSS (more info: http://getbootstrap.com) -->
@@ -44,7 +46,11 @@
 
         <!-- Theme custom CSS (all your CSS customizations) -->
         <link rel="stylesheet" href="css/custom.css">
+        
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 
+		<link rel="stylesheet" href="css/myboxes.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -135,18 +141,18 @@
                     <li><a href="#section-1" class="page-scroll">Welcome</a></li>
                     <li><a href="#section-2" class="page-scroll">Who We Are</a></li>
                     <li><a href="#section-3" class="page-scroll">What We Do</a></li>
-                    <li><a href="#section-5" class="page-scroll">Video Demo</a></li>
-                    <li><a href="#section-6" class="page-scroll">Portfolio</a></li>
+                    <!--<li><a href="#section-5" class="page-scroll">Video Demo</a></li>-->
+                    <li><a href="#section-6" class="page-scroll">Our Work</a></li>
                     <li><a href="#section-8" class="page-scroll">FAQ</a></li>
                     <li><a href="#section-9" class="page-scroll">Blog</a></li>
                     <li><a href="#section-11" class="page-scroll">Contact</a></li>
 
-                    <li class="menu-separator"></li>
+                    <!--<li class="menu-separator"></li>
 
                     <li><a href="index.html">Parallax Intro</a></li>
                     <li><a href="slideshow-intro.html">Slideshow Intro</a></li>
                     <li><a href="video-intro.html">Youtube Video Intro</a></li>
-                    <li><a href="404.html">404 Error Page</a></li>
+                    <li><a href="404.html">404 Error Page</a></li>-->
                 </ul>
                 <!-- End single links wrapper -->
 
@@ -156,33 +162,33 @@
                 <ul class="cd-navigation">
 
                     <!-- item has children -->
-                    <li class="item-has-children">
+                    <!--<li class="item-has-children">
                         <a href="#0">Sub Menu</a>
                         <ul class="sub-menu">
                             <li><a href="#">Sub Link 1</a></li>
                             <li><a href="#">Sub Link 2</a></li>
                             <li><a href="#">Sub Link 3</a></li>
                         </ul>
-                    </li>
+                    </li>-->
 
                     <!-- item has children -->
-                    <li class="item-has-children">
+                    <!--<li class="item-has-children">
                         <a href="#0">Another Sub Menu</a>
                         <ul class="sub-menu">
                             <li><a href="#">Sub Link 1</a></li>
                             <li><a href="#">Sub Link 2</a></li>
                         </ul>
-                    </li>
+                    </li>-->
 
                     <!-- item has children -->
-                    <li class="item-has-children">
+                    <!--<li class="item-has-children">
                         <a href="#0">Third Sub Menu</a>
                         <ul class="sub-menu">
                             <li><a href="#">Sub Link 1</a></li>
                             <li><a href="#">Sub Link 2</a></li>
                             <li><a href="#">Sub Link 3</a></li>
                         </ul>
-                    </li>
+                    </li>-->
 
                 </ul>
                 <!-- End links with sub menu -->
@@ -214,25 +220,25 @@
             <!-- Begin intro section (Parallax) -->
             <section id="section-intro" class="intro-parallax full-height">
 
-                <!-- Element background image (parallax) -->
-                <div class="full-cover bg-image" data-stellar-ratio="0.2" style="background-image: url(img/intro/parallax-intro-bg.jpg);"></div>
+                <!-- Element background image (parallax) img/intro/parallax-intro-bg.jpg-->
+                <div class="full-cover bg-image" data-stellar-ratio="0.2" style="background-image: url(img/oldhouse.jpg);"></div>
 
                 <!-- Element cover -->
                 <div class="cover"></div>
 
                 <!-- Intro caption -->
                 <div class="intro-caption text-white" data-stellar-ratio="0.6">
-                    <h1><span class="bg-main text-white">ex't</span> cepteur,<br>
-                        sint occaecat,<br>
-                        cupid proident.
+                    <h1><span class="bg-main text-white">RESTORING</span><br>
+                        HOMES, YOUR<br>
+                        DREAMS.
                     </h1>
-                    <p>ute enim ad venim.</p>
+                    <p>The Golden Horseshoe's Renovating Experts.</p>
                 </div>
 
-                <!-- Made with love :) -->
+                <!-- Made with love :)
                 <div class="made-with-love hidden-xs" data-stellar-ratio="0.2">
                     <p class="text-white">made with <span class="text-red"><i class="fa fa-heart-o"></i></span></p>
-                </div>
+                </div>-->
 
                 <!-- Scroll down arrow -->
                 <a class="scroll-down-arrow page-scroll text-center" href="#section-1"><span class="text-white"><i class="fa fa-arrow-down"></i></span></a>
@@ -246,12 +252,14 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-left col-md-6">
+                        <div class="col-left col-md-6 meet-us">
                             <div class="col-inner">
 
                                 <!-- Begin Heading -->
                                 <div class="heading heading-xlg">
-                                    <h1><span class="bg-white text-dark">Meet Us</h1>
+                                    <!--<h1><span class="bg-white text-dark">Meet Us</span></h1>-->
+                                    <h1><span class="bg-white text-dark">Meet</span> Us</h1>
+                                    <h2 class="lime-green one"><span class="m">M</span>ODERN </h2><h2 class="lime-green two"><span class="k">K</span>ONSTRUCTION</h2>
                                 </div>
                                 <!-- End Heading -->
 
@@ -264,7 +272,7 @@
                             <div class="col-inner">
 
                                 <p class="lead">
-Modern Konstruction is one of Hamilton's leading Drywall Installation and repair companies. We are located in Hamilton, Ontario but we offer a wide range of services to much of the Golden Horseshoe including Niagara Region, Brantford, Kitchener, Greater Toronto Area and surrounding regions.
+Modern Konstruction is one of Hamilton's leading Drywall Installation and repair companies. <br><br>We are located in Hamilton, Ontario but we offer a wide range of services to much of the Golden Horseshoe including Niagara Region, Brantford, Kitchener, Greater Toronto Area and surrounding regions.
                                 </p>
 
                             </div>
@@ -284,7 +292,9 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                         <div class="row-same-height">
 
                             <div class="col-left col-lg-6 col-lg-height no-padding">
-                                <img src="img/team.jpg" alt="image">
+                            	<!-- This is my NEW overlay -->
+                                <!--<p id="quote-overlay">Does this work?</p>-->
+                                <img src="img/5891937812_2546eb75b3_o2.jpg" alt="image">
                             </div> <!-- /.col -->
 
                             <div class="col-right col-lg-6 col-lg-height col-middle no-padding">
@@ -329,7 +339,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
 
                                     <!-- Begin Heading -->
                                     <div class="heading heading-xlg">
-                                        <h1><span class="bg-white text-dark">Whether you are</span><span class="bg-main text-white">working</span><span class="bg-white text-dark">with:</span></h1>
+                                        <h1><!--<span class="bg-white text-dark">RESIDENTIAL &nbsp;</span>-->RESIDENTIAL<span class="bg-main text-white">RENOVATION</span><span class="bg-white text-dark"></span></h1>
                                     </div>
                                     <!-- End Heading -->
 
@@ -345,7 +355,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                                 <div class="info-box">
                                                     <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
                                                     <div class="info-box-heading">
-                                                        <h3>Drywall or sheetrock</h3>
+                                                        <h3>Drywall</h3>
                                                         <div class="divider"></div>
                                                     </div>
                                                     <!--<div class="info-box-info">
@@ -360,7 +370,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                                 <div class="info-box">
                                                     <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
                                                     <div class="info-box-heading">
-                                                        <h3>Plaster</h3>
+                                                        <h3>Insulation</h3>
                                                         <div class="divider"></div>
                                                     </div>
                                                 </div>
@@ -371,11 +381,67 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                                 <div class="info-box">
                                                     <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
                                                     <div class="info-box-heading">
-                                                        <h3>Acoustic Paneling</h3>
+                                                        <h3>Paneling</h3>
                                                         <div class="divider"></div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            
+                                            <!-- info box 4 -->
+                                            <div class="col col-sm-6 col-lg-6">
+                                                <div class="info-box">
+                                                    <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+                                                    <div class="info-box-heading">
+                                                        <h3>Plaster</h3>
+                                                        <div class="divider"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- info box 5 -->
+                                            <div class="col col-sm-6 col-lg-6">
+                                                <div class="info-box">
+                                                    <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+                                                    <div class="info-box-heading">
+                                                        <h3>Framing</h3>
+                                                        <div class="divider"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- info box 6 -->
+                                            <div class="col col-sm-6 col-lg-6">
+                                                <div class="info-box">
+                                                    <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+                                                    <div class="info-box-heading">
+                                                        <h3>Demolition</h3>
+                                                        <div class="divider"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- info box 7 -->
+                                            <div class="col col-sm-6 col-lg-6">
+                                                <div class="info-box">
+                                                    <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+                                                    <div class="info-box-heading">
+                                                        <h3>Repairs</h3>
+                                                        <div class="divider"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- info box 8 -->
+                                            <div class="col col-sm-6 col-lg-6">
+                                                <div class="info-box">
+                                                    <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+                                                    <div class="info-box-heading">
+                                                        <h3>Painting</h3>
+                                                        <div class="divider"></div>
+                                                    </div>
+                                                </div>
+                                            </div>                                            
+                                            
                                         </div>
                                     </div>
                                 </div> <!-- /.col-inner -->
@@ -389,14 +455,87 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
 
 
                                         <div class="heading heading-xlg">
-                                            <h1><span class="bg-main text-white">Read our Review</span></span></h1>
+                                            <h1><span class="bg-main text-white">COMMERCIAL</span>RENOVATIONS</h1>
+                                            
+  <div class="container" id="myboxesboxes">
+  <div class="myboxbox first">
+    <span class="icon-cont"><i class="fa fa-thumbs-o-up"></i></span>
+    
+    <h3>Acoustic Ceilings</h3>
+    
+    <ul class="hidden">
+      <li>Lorem ipsum dolor</li>
+      <li>Set amet consecuter</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Set amet consecuter</li>
+    </ul>
+        
+    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+  </div>
+  
+  <div class="myboxbox second">
+    <span class="icon-cont"><i class="fa fa-thumbs-o-up"></i></span>
+    
+    <h3>Steel Framing</h3>
+    
+    <ul class="hidden">
+      <li>Lorem ipsum dolor</li>
+      <li>Set amet consecuter</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Set amet consecuter</li>
+    </ul>
+        
+    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+  </div>
+  
+  <div class="myboxbox third">
+    <span class="icon-cont"><i class="fa fa-thumbs-o-up"></i></span>
+    
+    <h3>Partition Walls</h3>
+    
+    <ul class="hidden">
+      <li>Lorem ipsum dolor</li>
+      <li>Set amet consecuter</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Set amet consecuter</li>
+    </ul>
+        
+    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+  </div>
+  
+  <div class="myboxbox fourth">
+    <span class="icon-cont"><i class="fa fa-thumbs-o-up"></i></span>
+    
+    <h3>T-bar Ceilings</h3>
+    
+    <ul class="hidden">
+      <li>Lorem ipsum dolor</li>
+      <li>Set amet consecuter</li>
+      <li>Lorem ipsum dolor</li>
+      <li>Set amet consecuter</li>
+    </ul>
+        
+    <a class="expand"><span class="plus">+</span><span class="minus">-</span></a>
+  </div>
+</div>
+                                            
+                                            <!--<figure>
+                        
+                        <figcaption>SVG PIE Chart with CSS animation</figcaption>
+                          <svg viewBox="0 0 63.6619772368 63.6619772368">
+                              <circle class="pie1" cx="31.8309886184" cy="31.8309886184" r="15.9154943092"/>
+							  <circle class="pie2" cx="31.8309886184" cy="31.8309886184" r="15.9154943092"/>
+                              <circle class="pie3" cx="31.8309886184" cy="31.8309886184" r="15.9154943092"/>
+                              <circle class="pie4" cx="31.8309886184" cy="31.8309886184" r="15.9154943092"/>
+                          </svg>
+                      </figure>-->
                                         </div>
-                                    <p class="lead">There is nothing more important to us than customer satisfaction. Your need to feel confident in the capabilities and reliability of the contractor you are hiring, is our priority.</p>
+                                    <!--<p class="lead">There is nothing more important to us than customer satisfaction. Your need to feel confident in the capabilities and reliability of the contractor you are hiring, is our priority.</p>
                                     <div class="row">
 
                                             <a href="http://www.homestars.com/companies/2783273-modern-konstruction?service_area=1837820"><img src="img/homestars.png" alt="image"></a>
                                             <img src="img/guaranteedIcon2.png" alt="image">
-                                            <img src="img/freeEstimate.png" alt="image">
+                                            <img src="img/freeEstimate.png" alt="image">-->
 
 
 
@@ -410,7 +549,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                         <!-- End responsive columns of same height -->
 
                     </div> <!-- /.row -->
-                </div> <!-- /.container -->
+                <!--</div>  /.container -->
             </section>
 
 
@@ -423,7 +562,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                         <div class="col count-1 col-md-3 col-sm-6">
                             <div class="counter-up-inner">
                                 <div class="counter-icon"><i class="fa fa-users"></i></div>
-                                <div class="counter">6211</div>
+                                <div class="counter">326</div>
                                 <div class="divider divider-center"></div>
                                 <h4>Satisfied Customers</h4>
                             </div>
@@ -433,7 +572,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                         <div class="col count-2 col-md-3 col-sm-6">
                             <div class="counter-up-inner">
                                 <div class="counter-icon"><i class="fa fa-leaf"></i></div>
-                                <div class="counter">126</div>
+                                <div class="counter">326</div>
                                 <div class="divider divider-center"></div>
                                 <h4>Completed Projects</h4>
                             </div>
@@ -453,9 +592,9 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                         <div class="col count-4 col-md-3 col-sm-6">
                             <div class="counter-up-inner">
                                 <div class="counter-icon"><i class="fa fa-cutlery"></i></div>
-                                <div class="counter">459</div>
+                                <div class="counter">185</div>
                                 <div class="divider divider-center"></div>
-                                <h4>Pizza's Ordered</h4>
+                                <h4>Returning Customers</h4>
                             </div>
                         </div> <!-- /.col -->
 
@@ -524,8 +663,8 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                     <img src="img/portfolio/portfolio-heading-img.jpg" alt="image">
                                     <!-- Begin Heading -->
                                     <div class="heading heading-md align-center">
-                                        <h1><span class="bg-main text-white">P</span>ortfolio</h1>
-                                        <p>see the entire portfolio <i class="fa fa-arrow-right"></i></p>
+                                        <h1><span class="bg-main text-white">O</span>ur Work</h1>
+                                        <p>see more samples <i class="fa fa-arrow-right"></i></p>
                                     </div>
                                     <!-- End Heading -->
                                 </div>
@@ -536,12 +675,12 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                             <!-- Begin portfolio grid box 1 -->
                             <div class="box box-1 col-md-4 col-sm-6">
                                 <div class="box-inner">
-                                    <a href="#portfolio-1" class="portfolio-link inline-popup-trigger"></a>
+                                    <a href="#" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-1.jpg" alt="image">
-                                    <div class="caption align-center">
+                                    <img class="thumbnail" src="img/home-reno.jpg" alt="image">
+                                    <!--<div class="caption align-center">
                                         <img src="img/portfolio/caption-img/1.png" alt="image">
-                                    </div>
+                                    </div>-->
                                     <h3 class="entry-count"># 01</h3>
                                 </div>
 
@@ -578,12 +717,12 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                             <!-- Begin portfolio grid box 2 -->
                             <div class="box box-2 col-md-4 col-sm-6">
                                 <div class="box-inner">
-                                    <a href="#portfolio-2" class="portfolio-link inline-popup-trigger"></a>
+                                    <a href="#" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-2.jpg" alt="image">
-                                    <div class="caption align-center">
+                                    <img class="thumbnail" src="img/screws.jpg" alt="image">
+                                    <!--<div class="caption align-center">
                                         <img src="img/portfolio/caption-img/2.png" alt="image">
-                                    </div>
+                                    </div>-->
                                     <h3 class="entry-count"># 02</h3>
                                 </div>
 
@@ -653,12 +792,12 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                             <!-- Begin portfolio grid box 3 -->
                             <div class="box box-3 col-md-4 col-sm-6">
                                 <div class="box-inner">
-                                    <a href="#portfolio-3" class="portfolio-link inline-popup-trigger"></a>
+                                    <a href="#" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-3.jpg" alt="image">
-                                    <div class="caption align-center">
+                                    <img class="thumbnail" src="img/paint2.jpg" alt="image">
+                                    <!--<div class="caption align-center">
                                         <img src="img/portfolio/caption-img/3.png" alt="image">
-                                    </div>
+                                    </div>-->
                                     <h3 class="entry-count"># 03</h3>
                                 </div>
 
@@ -699,12 +838,12 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                             <!-- Begin Portfolio grid box 4 -->
                             <div class="box box-4 col-md-4 col-sm-6">
                                 <div class="box-inner">
-                                    <a href="#portfolio-4" class="portfolio-link inline-popup-trigger"></a>
+                                    <a href="#" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-4.jpg" alt="image">
-                                    <div class="caption align-center">
+                                    <img class="thumbnail" src="img/insulation2.jpg" alt="image">
+                                    <!--<div class="caption align-center">
                                         <img src="img/portfolio/caption-img/4.png" alt="image">
-                                    </div>
+                                    </div>-->
                                     <h3 class="entry-count"># 04</h3>
                                 </div>
 
@@ -741,12 +880,12 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                             <!-- Begin portfolio grid box 5 -->
                             <div class="box box-5 col-md-4 col-sm-6">
                                 <div class="box-inner">
-                                    <a href="#portfolio-5" class="portfolio-link inline-popup-trigger"></a>
+                                    <a href="#" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-5.jpg" alt="image">
-                                    <div class="caption align-center">
+                                    <img class="thumbnail" src="img/floor3.jpg" alt="image">
+                                    <!--<div class="caption align-center">
                                         <img src="img/portfolio/caption-img/5.png" alt="image">
-                                    </div>
+                                    </div>-->
                                     <h3 class="entry-count"># 05</h3>
                                 </div>
 
@@ -787,12 +926,12 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                             <!-- Begin portfolio grid box 6 -->
                             <div class="box box-6 col-md-4 col-sm-6">
                                 <div class="box-inner">
-                                    <a href="#portfolio-6" class="portfolio-link inline-popup-trigger"></a>
+                                    <a href="#" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-6.jpg" alt="image">
-                                    <div class="caption align-center">
+                                    <img class="thumbnail" src="img/framework.jpg" alt="image">
+                                    <!--<div class="caption align-center">
                                         <img src="img/portfolio/caption-img/6.png" alt="image">
-                                    </div>
+                                    </div>-->
                                     <h3 class="entry-count"># 06</h3>
                                 </div>
 
@@ -831,10 +970,10 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                 <div class="box-inner">
                                     <a href="#portfolio-7" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-7.jpg" alt="image">
-                                    <div class="caption align-center">
+                                    <img class="thumbnail" src="img/ceiling.jpg" alt="image">
+                                    <!--<div class="caption align-center">
                                         <img src="img/portfolio/caption-img/7.png" alt="image">
-                                    </div>
+                                    </div>-->
                                     <h3 class="entry-count"># 07</h3>
                                 </div>
 
@@ -945,9 +1084,10 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                 </div>
                                 <!-- End Heading -->
 
-                                <p class="lead text-center">Egestas ultrices, felis purus lacinia ante,
-                                sollicitudin viverra ex eros ac elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Ut sagittis elit odio, a ultrices dolor dignissim. Duis aute irure dolor in reprehenderit.</p>
+                                <p class="lead text-center">Having a complete stranger enter your home with promises of a quick, cheap fix
+                                should understandably be met with skepticism. Our company's goal is to be as transparent as possibe in order
+                                to win our customer's trust, and eventually gain their satisfaction. Below you can find some of the more
+                                frequently asked questions regarding contract work, and how it applies to us.</p>
 
                                 <!-- Begin accordion -->
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -956,7 +1096,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                         <div class="panel-heading" role="tab" id="heading-1">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                                                    <span class="vertical-align-center">#1</span> Excepteur sint occaecat cupidatat non proident?
+                                                    <span class="vertical-align-center">#1</span> Is your bid an estimate, or a fixed price?
                                                 </a>
                                             </h4>
                                         </div>
@@ -976,7 +1116,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                         <div class="panel-heading" role="tab" id="heading-2">
                                             <h4 class="panel-title">
                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                                                    <span class="vertical-align-center">#2</span> Duis aute irure dolor in reprehenderit?
+                                                    <span class="vertical-align-center">#2</span> How long have you been doing business in this town?
                                                 </a>
                                             </h4>
                                         </div>
@@ -1000,7 +1140,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                         <div class="panel-heading" role="tab" id="heading-3">
                                             <h4 class="panel-title">
                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-                                                    <span class="vertical-align-center">#3</span> Consectetur adipisicing elit?
+                                                    <span class="vertical-align-center">#3</span> Are you licensed, bonded and insured?
                                                 </a>
                                             </h4>
                                         </div>
@@ -1020,7 +1160,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                         <div class="panel-heading" role="tab" id="heading-4">
                                             <h4 class="panel-title">
                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
-                                                    <span class="vertical-align-center">#4</span> Ullamo laboris nisi ut aliquip?
+                                                    <span class="vertical-align-center">#4</span> What type of warranties do you offer?
                                                 </a>
                                             </h4>
                                         </div>
@@ -1040,7 +1180,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                         <div class="panel-heading" role="tab" id="heading-5">
                                             <h4 class="panel-title">
                                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
-                                                    <span class="vertical-align-center">#5</span> Mollit anim id est laborum?
+                                                    <span class="vertical-align-center">#5</span> Do you have any references we can contact?
                                                 </a>
                                             </h4>
                                         </div>
@@ -1113,10 +1253,10 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
 		                    <div class="col-inner owl-carousel article-carousel" data-items="4" data-items-tablet="3" data-items-mobile-landscape="2" data-items-mobile-portrait="1" data-loop="true" data-autoplay="true" data-autoplay-timeout="8000" data-autoplay-hover-pause="true" data-autoplay-speed="600" data-dots="false" data-nav="true" data-nav-speed="600">
 
                                 <!-- Article-1 -->
-                                <article class="article article-1 bg-image" style="background-image: url(img/article/article-1.jpg);">
+                                <article class="article article-1 bg-image" style="background-image: url(img/home3.jpg);">
                                     <a href="#" target="_blank" class="article-link"></a> <!-- link to your article -->
                                     <div class="caption">
-                                        <h2 class="article-title">Vestibulum dictum metus ipsum</h2>
+                                        <h2 class="article-title">Drywall<br>Secrets</h2>
                                         <div class="entry-meta">
                                             <span class="published">Yesterday</span>
                                             <span class="posted-by">- By <a href="#" title="View all posts by Admin">Admin</a></span>
@@ -1126,10 +1266,10 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                 </article>
 
                                 <!-- Article-2 -->
-                                <article class="article article-2 bg-image" style="background-image: url(img/article/article-2.jpg);">
+                                <article class="article article-2 bg-image" style="background-image: url(img/bathroom.jpg);">
                                     <a href="#" target="_blank" class="article-link"></a> <!-- link to your article -->
                                     <div class="caption">
-                                        <h2 class="article-title">At tempor malesuada mentor</h2>
+                                        <h2 class="article-title">Modern Bathrooms</h2>
                                         <div class="entry-meta">
                                             <span class="published">1 day ago</span>
                                             <span class="posted-by">- By <a href="#" title="View all posts by Admin">Admin</a></span>
@@ -1139,10 +1279,10 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                 </article>
 
                                 <!-- Article-3 -->
-                                <article class="article article-3 bg-image" style="background-image: url(img/article/article-3.jpg);">
+                                <article class="article article-3 bg-image" style="background-image: url(img/kitchen1b.jpg);">
                                     <a href="#" target="_blank" class="article-link"></a> <!-- link to your article -->
                                     <div class="caption">
-                                        <h2 class="article-title">Morbi non porta felis nutter sent</h2>
+                                        <h2 class="article-title">Island<br>Sinks</h2>
                                         <div class="entry-meta">
                                             <span class="published">3 day ago</span>
                                             <span class="posted-by">- By <a href="#" title="View all posts by Admin">Admin</a></span>
@@ -1152,10 +1292,10 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                 </article>
 
                                 <!-- Article-4 -->
-                                <article class="article article-4 bg-image" style="background-image: url(img/article/article-4.jpg);">
+                                <article class="article article-4 bg-image" style="background-image: url(img/kitchen2b.jpg);">
                                     <a href="#" target="_blank" class="article-link"></a> <!-- link to your article -->
                                     <div class="caption">
-                                        <h2 class="article-title">Vivamus vulputate velit in libero pharetra</h2>
+                                        <h2 class="article-title">Country Kitchens</h2>
                                         <div class="entry-meta">
                                             <span class="published">6 days ago</span>
                                             <span class="posted-by">- By <a href="#" title="View all posts by Admin">Admin</a></span>
@@ -1165,10 +1305,10 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                 </article>
 
                                 <!-- Article-5 -->
-                                <article class="article article-5 bg-image" style="background-image: url(img/article/article-5.jpg);">
+                                <article class="article article-5 bg-image" style="background-image: url(img/apartment2.jpg);">
                                     <a href="#" target="_blank" class="article-link"></a> <!-- link to your article -->
                                     <div class="caption">
-                                        <h2 class="article-title">Praesent maximus venenatis ligula molestie</h2>
+                                        <h2 class="article-title">Delightful Entryway</h2>
                                         <div class="entry-meta">
                                             <span class="published">1 week ago</span>
                                             <span class="posted-by">- By <a href="#" title="View all posts by Admin">Admin</a></span>
@@ -1216,13 +1356,13 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                         data-dots-speed="800"................(milliseconds)
                     -->
                     <div class="owl-carousel clients-carousel text-center" data-items="4" data-margin="10" data-items-tablet="3" data-items-mobile-landscape="2" data-items-mobile-portrait="1" data-loop="true" data-autoplay="true" data-autoplay-timeout="7000" data-autoplay-hover-pause="true" data-autoplay-speed="600" data-dots="false">
-                        <a href="#" target="_blank" class="client-logo" title="Client-1"><img src="img/clients/1.png" alt="image"></a>
-                        <a href="#" target="_blank" class="client-logo" title="Client-2"><img src="img/clients/2.png" alt="image"></a>
-                        <a href="#" target="_blank" class="client-logo" title="Client-3"><img src="img/clients/3.png" alt="image"></a>
-                        <a href="#" target="_blank" class="client-logo" title="Client-4"><img src="img/clients/4.png" alt="image"></a>
-                        <a href="#" target="_blank" class="client-logo" title="Client-5"><img src="img/clients/5.png" alt="image"></a>
-                        <a href="#" target="_blank" class="client-logo" title="Client-6"><img src="img/clients/6.png" alt="image"></a>
-                        <a href="#" target="_blank" class="client-logo" title="Client-7"><img src="img/clients/7.png" alt="image"></a>
+                        <a href="#" target="_blank" class="client-logo" title="Client-1"><img src="img/dewalt.png" alt="image"></a>
+                        <a href="#" target="_blank" class="client-logo" title="Client-2"><img src="img/makita.png" alt="image"></a>
+                        <a href="#" target="_blank" class="client-logo" title="Client-3"><img src="img/milwaukee.png" alt="image"></a>
+                        <a href="#" target="_blank" class="client-logo" title="Client-4"><img src="img/ryobi.png" alt="image"></a>
+                        <a href="#" target="_blank" class="client-logo" title="Client-5"><img src="img/ridgid.png" alt="image"></a>
+                        <a href="#" target="_blank" class="client-logo" title="Client-6"><img src="img/bosch.png" alt="image"></a>
+                        <a href="#" target="_blank" class="client-logo" title="Client-7"><img src="img/craftsman.png" alt="image"></a>
                     </div>
                     <!-- End content carousel -->
 
@@ -1230,8 +1370,8 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
             </section>
 
 
-            <!-- Section 11 -->
-            <section id="section-11" class="page contact-section bg-dark text-white bg-image" style="background-image: url(img/map-bg.jpg);">
+            <!-- Section 11 map-bg.jpg-->
+            <section id="section-11" class="page contact-section bg-dark text-white bg-image" style="background-image: url(img/toronto_map2.png);">
 
                 <!-- Element cover -->
                 <div class="cover"></div>
@@ -1249,9 +1389,9 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                 <!-- End Heading -->
 
 								<div class="contact-info">
-	                                <p><i class="fa fa-home"></i> 121 King Street, Melbourne Victoria 3000 Australia</p>
-	                                <p><i class="fa fa-phone"></i> phone: +123 456 789 00</p>
-	                                <p><i class="fa fa-envelope"></i> your.email@info.com</p>
+	                                <!--<p><i class="fa fa-home"></i> 121 King Street, Melbourne Victoria 3000 Australia</p>-->
+	                                <p><i class="fa fa-phone"></i> phone: 905 531 4306</p>
+	                                <p><i class="fa fa-envelope"></i> contact@modernkonstruction.ca</p>
                                 </div>
 
                             </div> <!-- /.col-inner -->
@@ -1268,7 +1408,7 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                                     <a href="https://www.linkedin.com/in/themetorium" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 </div>
 
-                                <a href="mailto:your@email.com" target="_blank" class="btn btn-danger btn-rounded btn-lg">say hello <i class="fa fa-paper-plane-o"></i></a>
+                                <a href="mailto:contact@modernkonstruction.ca" target="_blank" class="btn btn-danger btn-rounded btn-lg">say hello <i class="fa fa-paper-plane-o"></i></a>
 
                             </div> <!-- /.col-inner -->
                         </div> <!-- /.col -->
@@ -1284,8 +1424,8 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright small">
-                                <a href="#">RED</a>
-                                <p>Copyright © All Rights Reserved</p>
+                                <!--<a href="#">RED</a>
+                                <p>Copyright © All Rights Reserved</p>-->
                             </div>
                         </div>
                     </div>
@@ -1307,7 +1447,8 @@ Modern Konstruction is one of Hamilton's leading Drywall Installation and repair
 
 
         <!-- Libs and Plugins JS -->
-        <script src="vendor/jquery/jquery-1.11.1.min.js"></script> <!-- jquery JS (more info: https://jquery.com) -->
+        <!--<script src="vendor/jquery/jquery-1.11.1.min.js"></script>--> <!-- jquery JS (more info: https://jquery.com) -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script> <!-- bootstrap JS (more info: http://getbootstrap.com) -->
         <script src="vendor/jquery.easing.min.js"></script> <!-- jquery easing JS (more info: http://gsgd.co.uk/sandbox/jquery/easing) -->
         <script src="vendor/jquery.stellar.min.js"></script> <!-- parallax JS (more info: http://markdalgleish.com/projects/stellar.js) -->

@@ -1321,7 +1321,7 @@ img.mfp-img {
 .contact-section {
 }
 .contact-section .cover {
-	background-color: rgba(0, 0, 0, 0.89);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 .contact-section .col-inner {
 	position: relative;
@@ -1355,7 +1355,7 @@ img.mfp-img {
 }
 @media only screen and (min-width: 992px) {
 	.contact-section .col-left .col-inner {
-		border-right: 1px solid #333;
+		/*border-right: 1px solid #333;*/
 	}
 }
 @media only screen and (max-width: 992px) {
