@@ -32,7 +32,6 @@
   margin: 20px auto;
   display: block; 
   text-align: center;
-  
   position: absolute;
   top: 10px;
   left: 0;
@@ -114,7 +113,7 @@
 }
 .myboxbox a.expand span.plus {
   opacity: 1;
-  padding-left: 3px;
+  padding-left: 4px;
   color: #608F08;
 }
 /*.myboxbox.selected a.expand {

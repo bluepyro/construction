@@ -68,7 +68,7 @@ Note: IE9 doesn't support transitions and animations
 }
 
 .portfolio .box .cover{
-	background: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.25);
 }
 
 
@@ -94,4 +94,79 @@ Note: IE9 doesn't support transitions and animations
 
 #cd-lateral-nav a:hover{
 	text-decoration: none;
+}
+
+col-left col-lg-6 col-lg-height no-padding overlay{
+	position: relative;
+}
+
+.myoverlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.75);
+	top: 0;
+	left: 0;
+	color: #fff;
+	/*visibility: hidden;
+	z-index: 100;*/
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+.myoverlay:hover{
+	/*visibility: visible;*/
+	opacity: 1;
+}
+
+.myoverlay p{
+	/*font-size: 200%;*/
+	color: rgba(255,255,255,.85);
+}
+
+.open-quote, .close-quote{
+	color: rgba(255,255,255,.75);
+	font-family: 'Coustard', serif;	
+	font-size: 1000%;	
+	position: absolute;
+}
+
+span.customer-quote{
+	line-height: 93px;
+	font-size: 56px;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;	
+	position: absolute;
+	margin-top: 23%;
+	text-align: center;
+}
+
+span.mk-green{
+	color: #9dd03b;
+	font-weight: 800 !important;
+}
+
+span.open-quote{
+	top: 36%;
+	left: 1%;
+}
+
+ span.close-quote{
+	 right: 1%;
+	 bottom: 19%;
+}
+
+.split-box .col-inner{
+	padding: 15px 80px
+}
+
+.img-trial{
+	overflow: hidden;
+}
+
+.img-trial img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 120% !important;
 }

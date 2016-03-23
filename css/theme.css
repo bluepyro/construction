@@ -780,13 +780,23 @@ section .container {
 }
 
 /* portfolio grid box cover hover bg colors */
-.portfolio .box-1:hover .cover { background-color: rgba(255, 0, 0, 0.8); }
+/*.portfolio .box-1:hover .cover { background-color: rgba(255, 0, 0, 0.8); }
 .portfolio .box-2:hover .cover { background-color: rgba(255, 213, 0, 0.8); }
-.portfolio .box-3:hover .cover { background-color: rgba(141, 203, 11, 0.8); }
+.portfolio .box-3:hover .cover { background-color: rgba(141, 203, 11, 0.8); } //green
 .portfolio .box-4:hover .cover { background-color: rgba(0, 197, 255, 0.8); }
 .portfolio .box-5:hover .cover { background-color: rgba(229, 0, 255, 0.8); }
 .portfolio .box-6:hover .cover { background-color: rgba(176, 100, 0, 0.8); }
-.portfolio .box-7:hover .cover { background-color: rgba(0, 29, 176, 0.8); }
+.portfolio .box-7:hover .cover { background-color: rgba(0, 29, 176, 0.8); }*/
+
+.portfolio .box-1:hover .cover { background-color: rgba(0, 0, 0, .8); }
+.portfolio .box-2:hover .cover { background-color: rgba(0, 0, 0, .8); }
+.portfolio .box-3:hover .cover { background-color: rgba(0, 0, 0, .8); }
+.portfolio .box-4:hover .cover { background-color: rgba(0, 0, 0, .8); }
+.portfolio .box-5:hover .cover { background-color: rgba(0, 0, 0, .8); }
+.portfolio .box-6:hover .cover { background-color: rgba(0, 0, 0, .8); }
+.portfolio .box-7:hover .cover { background-color: rgba(0, 0, 0, .8); }
+
+
 
 /* portfolio grid box thumbnail */
 .portfolio .thumbnail {
